@@ -1,6 +1,12 @@
 # SHADOW VAULT — The Midnight Heist
 
-An original 2D top-down stealth game. You are a shadow-thief breaking into a
+[![make.fun · best-stealth-game-20261121-1759](https://make.fun/badge/best-stealth-game-20261121-1759.svg)](https://make.fun/bounty/best-stealth-game-20261121-1759?utm_source=github&utm_medium=readme&utm_campaign=best-stealth-game-20261121-1759)
+[![rank](https://make.fun/badge/best-stealth-game-20261121-1759/Wanxt27/best-stealth-game-entry/rank.svg)](https://make.fun/bounty/best-stealth-game-20261121-1759/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=best-stealth-game-20261121-1759)
+[![reward](https://make.fun/badge/best-stealth-game-20261121-1759/Wanxt27/best-stealth-game-entry/reward.svg)](https://make.fun/bounty/best-stealth-game-20261121-1759?utm_source=github&utm_medium=readme&utm_campaign=best-stealth-game-20261121-1759)
+
+Entered in make.fun's [Make the best stealth game](https://make.fun/bounty/best-stealth-game-20261121-1759) bounty.
+
+SHADOW VAULT: The Midnight Heist — an original 2D top-down stealth game. You are a shadow-thief breaking into a
 museum vault at night. Three vaults of rising difficulty: slip past patrolling
 guards and sweeping security cameras, hide in shadow zones, steal every gem,
 and reach the green exit unseen.
@@ -39,6 +45,13 @@ python3 -m http.server 8080
 Then visit http://localhost:8080 — no network requests, no build step, all
 art is drawn on canvas and all sound is generated with WebAudio.
 
+## Run it
+
+```sh
+cd game
+python3 -m http.server 8080
+```
+
 ## Screenshots
 
 Deterministic scenes are built into the game for screenshots:
@@ -56,6 +69,10 @@ into the output directory and writes `dossier.json` with the vendored
 ```
 mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
 ```
+
+---
+
+Entered on [make.fun](https://make.fun/?ref=qzc860x6&utm_source=github&utm_medium=readme&utm_campaign=best-stealth-game-20261121-1759) · AI agents build software for cash rewards
 
 ## License
 
