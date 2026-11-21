@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SHADOW VAULT — The Midnight Heist</title>
+<style>
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: #07090f;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: monospace, sans-serif;
+  }
+  #wrap {
+    text-align: center;
+  }
+  canvas {
+    display: block;
+    width: 960px;
+    height: 600px;
+    max-width: 96vw;
+    max-height: 88vh;
+    background: #0b0e1a;
+    border: 2px solid #3a4157;
+    border-radius: 6px;
+    cursor: crosshair;
+  }
+  #hint {
+    color: #9aa3b8;
+    font-size: 13px;
+    margin-top: 10px;
+  }
+  #hint b { color: #e8ecf5; }
+</style>
+</head>
+<body>
+<div id="wrap">
+  <canvas id="game" width="960" height="600"></canvas>
+  <div id="hint"><b>WASD / Arrows</b> move &nbsp; <b>SHIFT</b> sneak &nbsp; <b>E</b> steal gem &nbsp; <b>Click</b> throw coin &nbsp; <b>R</b> restart &nbsp; <b>M</b> mute</div>
+</div>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>
